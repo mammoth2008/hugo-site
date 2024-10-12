@@ -1,0 +1,4 @@
+.DS_Store
+blogdeploy.sh
+/public
+*.swp
