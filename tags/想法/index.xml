@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>想法 on 人生玩家</title>
+    <link>https://yemengma.cn/tags/%E6%83%B3%E6%B3%95/</link>
+    <description>Recent content in 想法 on 人生玩家</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>LifePlayer</copyright>
+    <lastBuildDate>Mon, 18 Nov 2024 08:00:00 +0800</lastBuildDate>
+    <atom:link href="https://yemengma.cn/tags/%E6%83%B3%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于钢笔和打字机的通信 241118 Mon</title>
+      <link>https://yemengma.cn/post/2024-11-18-mon/</link>
+      <pubDate>Mon, 18 Nov 2024 08:00:00 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2024-11-18-mon/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;今天在 reddit.com 的&lt;a href=&#34;https://www.reddit.com/r/fountainpens/&#34;&gt;r/fountainpens&lt;/a&gt;版块看到一个好故事。作者是&lt;a href=&#34;https://www.reddit.com/user/Osgoodbad/&#34;&gt;Osgoodbad&lt;/a&gt;，他讲述了一次和 汤姆·汉克斯的通信——使用钢笔和打字机。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;翻译如下，原文在最后。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;我给汤姆·汉克斯写了一封信——他回信了！&lt;/p&gt;&#xA;&lt;p&gt;几个月前，我看了一部名为《加州打字机》的纪录片。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>体内的生产力节律 241117 Sun</title>
+      <link>https://yemengma.cn/post/2024-11-17-sun/</link>
+      <pubDate>Sun, 17 Nov 2024 08:00:00 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2024-11-17-sun/</guid>
+      <description>&lt;p&gt;周一早上。小王照常在 9 点坐到办公桌前，满怀信心准备完成一个重要报告。刚开始还挺顺利，但不到 10 点半，他就开始频繁打哈欠，忍不住想刷手机，明显感觉效率直线下降。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>学点东西：Blender（三） 240726 Fri </title>
+      <link>https://yemengma.cn/post/2024-07-26-fri/</link>
+      <pubDate>Fri, 26 Jul 2024 08:00:00 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2024-07-26-fri/</guid>
+      <description>&lt;p&gt;上一篇用建模工具做了个螺母，这次用修改器做一个。&lt;/p&gt;&#xA;&lt;h3 id=&#34;用修改器做螺母&#34;&gt;用修改器做螺母&lt;/h3&gt;&#xA;&lt;p&gt;修改器不是直接操作物体，而是先呈现操作后的效果，直到应用修改器后才会产生真正的改变。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;表面细分：右侧属性窗口-修改器-生成-表面细分。可以把立方体变成球体，配合 Ctrl+R 切割，可以方便地塑形。&lt;/li&gt;&#xA;&lt;li&gt;实体化：同样在修改器-生成中。用于给一个平面加厚度。偏移量为正，则向坐标系正数方向增加厚度。&lt;/li&gt;&#xA;&lt;li&gt;倒角：位置同上。加倒角。&lt;/li&gt;&#xA;&lt;li&gt;布尔修改器：位置同上。可以对物体做集合操作，包括并集、交集和差集。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;在物体上打孔的操作如下：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>学点东西：Blender（二） 240725 Thu </title>
+      <link>https://yemengma.cn/post/2024-07-25-thu/</link>
+      <pubDate>Thu, 25 Jul 2024 08:00:00 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2024-07-25-thu/</guid>
+      <description>&lt;p&gt;在 Blender 中有大量的快捷键可以帮助提升建模效率，但有一些重要的视图功能需要小数字键盘。&lt;/p&gt;&#xA;&lt;p&gt;可以重新定义快捷键，来省掉小数字键盘：打开设置-键位映射，可以看到大量的快捷键定义。找个自己喜欢的方式换一下就好。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>学点东西：Blender（一） 240724 Wed </title>
+      <link>https://yemengma.cn/post/2024-07-24-wed/</link>
+      <pubDate>Wed, 24 Jul 2024 08:00:00 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2024-07-24-wed/</guid>
+      <description>&lt;h2 id=&#34;设置和基础&#34;&gt;设置和基础&lt;/h2&gt;&#xA;&lt;p&gt;开始学一下 Blender，使用的版本是长期支持版 4.2。教程是 Blender 官网上的 &lt;a href=&#34;https://docs.blender.org/manual/zh-hans/4.2/&#34;&gt;4.2 版本文档&lt;/a&gt; 和 B 站上的一个教程&lt;a href=&#34;https://www.bilibili.com/video/BV14u41147YH&#34;&gt;【Kurt】Blender零基础入门教程 | Blender中文区新手必刷教程(已完结)&lt;/a&gt;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>日贴230821 Mon 把温故变成知新</title>
+      <link>https://yemengma.cn/post/2023-08-21-mon/</link>
+      <pubDate>Mon, 21 Aug 2023 08:00:00 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2023-08-21-mon/</guid>
+      <description>&lt;p&gt;追求新事物是人的天性。大脑总是为了新的东西而激动，而不考虑这些东西的价值；刷微博、刷抖音就是好例子。一项哈佛大学的研究表明，新奇信息的消费激活了与奖励系统有关的大脑区域，与人们追求物质奖励的心理过程相似。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>日贴230808 Tue 仔细调整睡眠环境</title>
+      <link>https://yemengma.cn/post/2023-08-08-tue/</link>
+      <pubDate>Tue, 08 Aug 2023 06:25:09 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2023-08-08-tue/</guid>
+      <description>&lt;p&gt;睡眠周期没有什么好说的了。凡是对睡眠稍微有点了解的人，都应该知道睡眠周期，知道 REM 和非 REM 睡眠。这是睡眠的基础，也是睡眠的目标。&lt;/p&gt;&#xA;&lt;p&gt;今天让我们来谈谈方法吧。毕竟只有目标是不够的，我们还需要知道该如何达到这个目标。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>日贴230728 Mon 从醉虾到蛤蜊</title>
+      <link>https://yemengma.cn/post/2023-07-28-fri/</link>
+      <pubDate>Fri, 28 Jul 2023 08:25:09 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2023-07-28-fri/</guid>
+      <description>&lt;p&gt;有时候我觉得自己像只醉虾——正在用尽力气才能呼吸的时候，一瓢烈酒从头浇下，真是字面意思上的刺激得要命。拼命一跃想要跳出去，可是锅盖却已经扣了下来。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>日贴230724 Mon 睡眠是好事</title>
+      <link>https://yemengma.cn/post/2023-07-24-mon/</link>
+      <pubDate>Mon, 24 Jul 2023 07:25:09 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2023-07-24-mon/</guid>
+      <description>&lt;p&gt;睡个好觉至关重要。虽然我们还没搞懂为什么人一定要睡觉、为什么平均睡 7 个小时会让全因死亡率最低、为什么最好的入睡时间是晚上十点到十一点左右；但是我们知道，睡觉是好事。而且它很重要。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>日贴230719 Wed 难事必作于易</title>
+      <link>https://yemengma.cn/post/2023-07-19-wed/</link>
+      <pubDate>Wed, 19 Jul 2023 08:25:09 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2023-07-19-wed/</guid>
+      <description>&lt;p&gt;设想现在要你管理一个一万人的公司。内有派系混杂争斗不休，外有竞争对手如狼似虎，你焦虑吗？&lt;/p&gt;&#xA;&lt;p&gt;设想三个月后你要交一部小说的书稿，这部小说已经卖出去了电影版权，但是你现在还没有一个好的故事线索，你焦虑吗？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>日贴230717 Mon 为什么要做难的事</title>
+      <link>https://yemengma.cn/post/2023-07-17-mon/</link>
+      <pubDate>Mon, 17 Jul 2023 08:25:09 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2023-07-17-mon/</guid>
+      <description>&lt;p&gt;我有过一个同事，是某个大城市的健美比赛季军。看到他的简历时，我没怎么犹豫——虽然当时的业务和健美完全没有关系。&lt;/p&gt;&#xA;&lt;p&gt;这个判断很简单：若是一个人有这样的毅力，能在日复一日的枯燥训练和饮食限制中把自己练到这样的水准，那么他一定有能力去做其他的事情。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>日贴230711 Sun 睡好觉是第一步</title>
+      <link>https://yemengma.cn/post/2023-07-11-tue/</link>
+      <pubDate>Tue, 11 Jul 2023 08:25:09 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2023-07-11-tue/</guid>
+      <description>&lt;p&gt;经过长期观察，发现我的睡眠周期大概是 90 分钟。考虑到入睡的时间，一般会加 10 分钟。也就是说，如果要早上 6:30 起床，我一般会在 22:50 上床，争取 23:00 入睡。&lt;/p&gt;&#xA;&lt;p&gt;不过也经常会有睡不着的时候。若是 20 分钟还睡不着，就不如起床。能睡着固然很好，不过睡不着也无所谓。睡不着就起来做点事情，或者看看书，或者听听音乐，等有了困意再上床就好。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>日贴230416 Sun Auto-Everything</title>
+      <link>https://yemengma.cn/post/2023-04-16-sun/</link>
+      <pubDate>Sun, 16 Apr 2023 18:25:09 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2023-04-16-sun/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yemengma.cn/post/23w15-review/&#34;&gt;昨天&lt;/a&gt;写了篇短文谈 &lt;a href=&#34;https://github.com/Significant-Gravitas/Auto-GPT&#34;&gt;Auto-GPT&lt;/a&gt;，今早就看到有人做了个 &lt;a href=&#34;https://www.allabtai.com/autosd-autogpt-stable-diffusion-xl-chatgpt-agents/&#34;&gt;AutoSD&lt;/a&gt;。这里的「SD」，是 &lt;a href=&#34;https://stability.ai/stable-diffusion&#34;&gt;Stable Diffusion XL&lt;/a&gt;。&lt;/p&gt;&#xA;&lt;p&gt;原理是 Auto-GPT 思路，不过又有点不一样。作者用 GPT 生成两个 Agent，非常八十年代风格地把他们叫做 Agent69 和 Agent007。这俩 Agent 会彼此讨论，会去 Google 所需信息，尝试生成好用的 Stable Diffusion XL Prompt。等这俩看起来很硬汉的 Agent 达成一致后，就调用 Stable Diffusion XL 生成图片，然后保存到文件夹。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20230306 Mon 诺基亚时刻</title>
+      <link>https://yemengma.cn/post/2023-03-06-mon/</link>
+      <pubDate>Mon, 06 Mar 2023 20:39:28 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2023-03-06-mon/</guid>
+      <description>&lt;p&gt;2013 年，诺基亚公司的股价从 2007 年的每股 15 欧元，跌到了 2013 年的每股 0.5 欧元，下跌了 97%。同年，微软公司以 5.44 亿欧元的价格收购了诺基亚公司的手机业务。&lt;/p&gt;&#xA;&lt;p&gt;在这次收购的新闻发布会上，诞生了一句名言。时任诺基亚 CEO 的 Stephen Elop 说，「我们什么都没有做错。只是不知道为什么，我们失败了」。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>日贴230110 Tue 想法只是想法</title>
+      <link>https://yemengma.cn/post/2023-01-10-tue/</link>
+      <pubDate>Tue, 10 Jan 2023 18:25:09 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2023-01-10-tue/</guid>
+      <description>&lt;p&gt;阳了，又阴了，食欲没有了。&lt;/p&gt;&#xA;&lt;p&gt;但是，每天晚上十点多，就总是还想吃点什么。最好咸一点，甜一点，吃起来满足感强一点。&lt;/p&gt;&#xA;&lt;p&gt;嗯，基本上就是想吃红烧肉。&lt;/p&gt;&#xA;&lt;p&gt;但是胆囊和肚子上的脂肪都不同意。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>稀松平常背后的波澜壮阔</title>
+      <link>https://yemengma.cn/post/2023-01-05-thu/</link>
+      <pubDate>Thu, 05 Jan 2023 18:25:09 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2023-01-05-thu/</guid>
+      <description>&lt;p&gt;1997 年，英国女王的最强特工 007 还是皮尔斯·布鲁斯南。他和杨紫琼主演的《007 之明日帝国》中，有一块能输入中文的键盘。&lt;/p&gt;&#xA;&lt;p&gt;显然这是对中文计算机的想象。和那个时代的电影里的生造汉字、语序错乱的句子、发音乱糟糟的中文一样，都是异国想象的一部分。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>日贴230101 Sun 回归常识</title>
+      <link>https://yemengma.cn/post/2023-01-01-sun/</link>
+      <pubDate>Sun, 01 Jan 2023 08:25:09 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2023-01-01-sun/</guid>
+      <description>&lt;p&gt;常识是个有点尴尬的东西：没有好像不大行，有了也不值得骄傲。&lt;/p&gt;&#xA;&lt;p&gt;如果吵架时轻飘飘丢出一句「这不过是常识」,往往意味着冲突升级；说人没有常识，是一种明显的侮辱。常识嘛，common sense 嘛，人人都该有，没有就该死。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20221009 Sun 后来严仲子怎么样了？</title>
+      <link>https://yemengma.cn/post/2022-10-09-sun/</link>
+      <pubDate>Sun, 09 Oct 2022 08:25:09 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-10-09-sun/</guid>
+      <description>&lt;p&gt;越久远的历史就越简略，所记录的内容也就不可尽信。不过纵使如此，也还是可以发现一些有趣的碎片。&lt;/p&gt;&#xA;&lt;p&gt;比方说聂政的故事。&lt;/p&gt;&#xA;&lt;p&gt;《史记·刺客列传》记录了五名刺客，除了曹沫之外的四人被称作「四大刺客」，聂政为其一，和荆轲、豫让、专诸并列。《资治通鉴》也仔细讲了聂政的故事，连不少国家灭国都没写得这么细。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>跳出书来看书 2022 Week 39 回顾</title>
+      <link>https://yemengma.cn/post/22w39-review/</link>
+      <pubDate>Sat, 01 Oct 2022 11:51:01 +0800</pubDate>
+      <guid>https://yemengma.cn/post/22w39-review/</guid>
+      <description>&lt;p&gt;一个显而易见但往往被忽视的事实：书只表现了某个人或某个团队的部分经验或观点，而且只是那些能够显性化的部分。&lt;/p&gt;&#xA;&lt;p&gt;对于技术相关的书，这大概不算是个严重问题。但是对于观点、观念性的书，这就是个大问题。毕竟技术类书籍只是关于行为的，而观念是行为的基础；观念出了问题，行为就对不了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220923 Fri 百日筑基</title>
+      <link>https://yemengma.cn/post/2022-09-22-thu/</link>
+      <pubDate>Fri, 23 Sep 2022 08:01:24 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-09-22-thu/</guid>
+      <description>&lt;p&gt;练功练拳入门，都需百日筑基。&lt;/p&gt;&#xA;&lt;p&gt;先充实气血，磨炼筋骨，最少要达到最低水准，才能开始练功。筑基者，如筑屋之打基础也。&lt;/p&gt;&#xA;&lt;p&gt;直到勤学苦练三月有余，慢慢才有了点自然的感觉，周身运转如意，自觉练出了一点功夫。此时方放下疑虑，诚心实意；大道天门自此开，砥砺前行由今始。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220921 Wed 全部的努力</title>
+      <link>https://yemengma.cn/post/2022-09-21-wed/</link>
+      <pubDate>Wed, 21 Sep 2022 08:55:54 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-09-21-wed/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://book.douban.com/author/4511454/&#34;&gt;黄易&lt;/a&gt; 在 &lt;a href=&#34;https://book.douban.com/subject/1668021/&#34;&gt;《寻秦记》&lt;/a&gt; 里，借项少龙扮演的董马痴，给纪嫣然讲过一个故事。&lt;/p&gt;&#xA;&lt;p&gt;「有个旅客在沙漠里走着，忽然后面出现了一群饿狼，追着他来要群起而噬。他大吃一惊，拼命狂奔，为生命而奋斗。就在饿狼快追上他时，他见到前面有口不知有多深的井，不顾一切跳了进去。但井里不但没有水，还有很多毒蛇，见到有食物送上门来，昂首吐舌，热切引项以待。他大惊失神下，胡乱伸手想去抓到点甚么可以救命的东西，想不到竟天从人愿，给他抓到了一棵在井中间横伸出来的小树，把他稳在半空处。于是乎上有饿狼，下有毒蛇，不过那人虽陷身在进退两难的绝境，但暂时总仍是安全的。」&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220916 Fri 保持运动</title>
+      <link>https://yemengma.cn/post/2022-09-16-fri/</link>
+      <pubDate>Fri, 16 Sep 2022 08:02:44 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-09-16-fri/</guid>
+      <description>&lt;p&gt;人人都知道运动的好处：提升生活、工作、学习质量；可运动的难处也人人都知道：难以开始，难以持续。&lt;/p&gt;&#xA;&lt;p&gt;我从小就不喜欢运动。小时候瘦弱，体育课成绩差，跑得不快跳得不远，吊在单杠上也比别人更快掉下来。所以尝试扬长避短：干脆不运动了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220723 Sat 画画很有趣，学画不痛苦</title>
+      <link>https://yemengma.cn/post/2022-07-23-sat/</link>
+      <pubDate>Sat, 23 Jul 2022 13:38:13 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-07-23-sat/</guid>
+      <description>&lt;p&gt;能把想象的场景画出来，是多美好的事啊。&lt;/p&gt;&#xA;&lt;p&gt;——理想是这样的。&lt;/p&gt;&#xA;&lt;p&gt;而现实嘛，则一贯地骨感——画出来的「作品」和自己想要画的东西，绝无半点相似之处。&lt;/p&gt;&#xA;&lt;p&gt;看不出形状体积，似乎都是薄薄一张纸（虽然实际上的确是……）；线条断断续续，忽轻忽重，转折生硬扭曲；颜色怎么看怎么怪，连形容起来都困难……&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220721 Thu 八百万种活法</title>
+      <link>https://yemengma.cn/post/2022-07-21-thu/</link>
+      <pubDate>Thu, 21 Jul 2022 11:34:36 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-07-21-thu/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://lawrenceblock.com/&#34;&gt;劳伦斯·布洛克&lt;/a&gt; 有本 &lt;a href=&#34;https://book.douban.com/subject/1867064/&#34;&gt;《八百万种死法》&lt;/a&gt; 。纽约有八百万人，八百万个故事，八百万种死法。&lt;/p&gt;&#xA;&lt;p&gt;如果能活到七十五岁， &lt;a href=&#34;http://www.ruanyifeng.com/blog/2011/05/900-month_lifespan.html&#34;&gt;一生不过九百个月&lt;/a&gt; 。身体好运气好，也不过一千个月。前后几年不晓事，剩下八百个月。&lt;/p&gt;&#xA;&lt;p&gt;却也足够造就八百万种 &lt;a href=&#34;https://book.douban.com/subject/34887257/&#34;&gt;活法&lt;/a&gt; 。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220712 Tue 效率的第二个问题</title>
+      <link>https://yemengma.cn/post/2022-07-12-tue/</link>
+      <pubDate>Tue, 12 Jul 2022 09:57:52 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-07-12-tue/</guid>
+      <description>&lt;p&gt;第二个问题看起来很简单：大量练习。&lt;/p&gt;&#xA;&lt;p&gt;不过真的简单吗？&lt;/p&gt;&#xA;&lt;p&gt;例如，你是习惯用快捷键，还是用鼠标点来点去？你是先分析问题，写下提纲，为每一段写个主题句，还是完全从空白文档开始？你的文件井然有序分类清晰，还是乱糟糟堆在桌面上？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220710 Sun 效率的首要问题</title>
+      <link>https://yemengma.cn/post/2022-07-10-sun/</link>
+      <pubDate>Sun, 10 Jul 2022 12:03:49 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-07-10-sun/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Getting_Things_Done&#34;&gt;GTD (Getting Things Done)&lt;/a&gt; 方法颇受欢迎。这种效率方法建议把所有事务放在外脑中，每一时刻只做一件事，全神贯注，心如止水。这倒是和曾国藩在 &lt;a href=&#34;https://ctext.org/wiki.pl?if=gb&amp;amp;chapter=197280&amp;amp;remap=gb&#34;&gt;《处世金针·修身之要》&lt;/a&gt; 里的一句话异曲同工：灵明无著，物来顺应，未来不迎。当时不杂，既过不恋，是之谓虚而已矣，是之谓城而已矣。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220707 Thu 狗屁工作和效率</title>
+      <link>https://yemengma.cn/post/2022-07-07-thu/</link>
+      <pubDate>Thu, 07 Jul 2022 08:22:36 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-07-07-thu/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://book.douban.com/subject/10488563/&#34;&gt;《宇宙尽头的餐馆》&lt;/a&gt; 中有一节我很喜欢。两位主角被传送到一艘过路飞船上，发现了一大批石棺，里面冻了一千五百万个电话消毒员、三级二手车销售员、广告业务经理、保险销售员、人事经理、公关经理、管理顾问，等等等等。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220706 Wed 三个生活计划</title>
+      <link>https://yemengma.cn/post/2022-07-06-wed/</link>
+      <pubDate>Wed, 06 Jul 2022 15:42:08 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-07-06-wed/</guid>
+      <description>&lt;p&gt;经济蒸蒸日上的时代，人们不大需要操心自己的未来。每条路都是通向美好明天的，每片草场都是水草丰美的，每棵树都是硕果累累的。按部就班好好努力就有收获——一般来说是这样。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220704 Mon 每天都应该有点不舒服</title>
+      <link>https://yemengma.cn/post/2022-07-04-mon/</link>
+      <pubDate>Mon, 04 Jul 2022 16:02:13 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-07-04-mon/</guid>
+      <description>&lt;p&gt;犯错误是不舒服的，但是它也是必要的。以人类可怜的认知能力，往往只能在自己掉过的坑里学到东西。物理学家玻尔说，所谓专家，就是在一个非常狭窄的领域里，犯过所有可能犯的错误。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220701 Fri 一天三次早上好</title>
+      <link>https://yemengma.cn/post/2022-07-01-fri/</link>
+      <pubDate>Fri, 01 Jul 2022 13:58:53 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-07-01-fri/</guid>
+      <description>&lt;p&gt;小时候读过一篇文章，说某位学术大家在可以重新工作后，每天说三次早上好。&lt;/p&gt;&#xA;&lt;p&gt;记得那位老人说，「我剩下的时间不多，每天都当成三天来过，才能多做些工作。」所以，早上起床，早上好。午饭后休息一会儿，早上好。晚饭后散散步，早上好。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220630 Thu 死记硬背是有必要的</title>
+      <link>https://yemengma.cn/post/2022-06-30-thu/</link>
+      <pubDate>Thu, 30 Jun 2022 14:01:10 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-06-30-thu/</guid>
+      <description>&lt;p&gt;甚至不用稍微注意就能发现，知识付费大潮中，满天飞的是各种自称为「干货」的方法论。&lt;/p&gt;&#xA;&lt;p&gt;然而它们却往往无法解决用户碰到的问题。这些方法论也许可以算是知识，但却不是全部。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220628 Tue 不可能三角</title>
+      <link>https://yemengma.cn/post/2022-06-28-tue/</link>
+      <pubDate>Tue, 28 Jun 2022 10:23:15 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-06-28-tue/</guid>
+      <description>&lt;p&gt;有不少不可能三角。如投资理财中的收益、风险、流动性，区块链中的可扩展性、去中心化、安全，金融中的资本自由流动、货币政策独立、固定汇率，项目管理中的范围、成本、进度。找工作的时候我们想要钱多事少离家近，找爱人的时候想要对方英俊多金只爱我，生活中想要多吃少动不长肉，这些是近似不可能三角。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220619 Sun 工作流</title>
+      <link>https://yemengma.cn/post/2022-06-19-sun/</link>
+      <pubDate>Sun, 19 Jun 2022 11:40:08 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-06-19-sun/</guid>
+      <description>&lt;p&gt;工作流（Workflow）是企业办公自动化中的概念，是对工作流程及其各操作步骤之间业务规则的抽象、概括描述。&lt;/p&gt;&#xA;&lt;p&gt;即，工作流是工作流程中的工作组织在一起，来达到多人工作的成果稳定，协同高效。它的基础，是用计算机在多个工作者之间，按某种预定规则自动传递文档、信息或者任务。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220613 Mon 不过「不得不」的生活</title>
+      <link>https://yemengma.cn/post/2022-06-13-mon/</link>
+      <pubDate>Mon, 13 Jun 2022 09:46:32 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-06-13-mon/</guid>
+      <description>&lt;p&gt;「不得不」是万恶之源。&lt;/p&gt;&#xA;&lt;p&gt;生活中的心理消耗都来源于「不得不」。无论是不喜欢而不得不去做的工作，还是时限临近而不得不改变的计划，都是影响心情和表现的主因。「没办法啊，我不得不……」这个句式是不是很熟悉？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220606 Mon 什么样的工作才是修行</title>
+      <link>https://yemengma.cn/post/2022-06-06-mon/</link>
+      <pubDate>Mon, 06 Jun 2022 08:20:46 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-06-06-mon/</guid>
+      <description>&lt;p&gt;稻盛和夫说，工作是修行。&lt;/p&gt;&#xA;&lt;p&gt;深以为然。生活的意义在于创造，工作即创造。&lt;/p&gt;&#xA;&lt;p&gt;我认为，创造大于消费。当然，消费主义盛行的当下，这种观点似乎古板落伍。但是，有谁是因为消费而被记住，又有谁从消费中获得了长期和丰富的满足呢？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220605 Sun 基于文档的沟通</title>
+      <link>https://yemengma.cn/post/2022-06-05-sun/</link>
+      <pubDate>Sun, 05 Jun 2022 19:14:35 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-06-05-sun/</guid>
+      <description>&lt;p&gt;面对面聊天、视频会议、电话讨论，是过去的工作惯例。&lt;/p&gt;&#xA;&lt;p&gt;它们都是沟通。互通有无，表达自己的想法、认识、情绪，争取双方达成一致。&lt;/p&gt;&#xA;&lt;p&gt;但是这些方法，在大多数务实的工作上，效率谈不上高。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220604 Sat 为什么「进行」是个坏词</title>
+      <link>https://yemengma.cn/post/2022-06-04-sat/</link>
+      <pubDate>Sat, 04 Jun 2022 13:54:41 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-06-04-sat/</guid>
+      <description>&lt;p&gt;进行相当于「ing」, 表示某件事正在发生。在英语中有时态，这么表述很正常；但是在中文中往往没必要。&lt;/p&gt;&#xA;&lt;p&gt;滥用「进行」的人，我默认他是蠢货。&lt;/p&gt;&#xA;&lt;p&gt;「对重大事项进行了讨论」就是「讨论了重大事项」, 这里的「了」表示完成时；&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220526 Thu 番茄工作法的难题</title>
+      <link>https://yemengma.cn/post/2022-05-26-thu/</link>
+      <pubDate>Thu, 26 May 2022 00:15:26 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-05-26-thu/</guid>
+      <description>&lt;p&gt;对于深度脑力劳动来说，番茄工作法是好工具。它看起来很简单，但确实有效：专心工作 25 分钟，然后休息 5 分钟；四个循环后，休息 15 分钟。&lt;/p&gt;&#xA;&lt;p&gt;不过，似乎能持续使用番茄法的人并不算多。我想可能有几个原因。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220522 Sun 退休后你会做什么</title>
+      <link>https://yemengma.cn/post/2022-05-22-sun/</link>
+      <pubDate>Sun, 22 May 2022 23:06:56 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2022-05-22-sun/</guid>
+      <description>&lt;p&gt;有个著名的人生规划方法，是设想你的葬礼。&lt;/p&gt;&#xA;&lt;p&gt;这个方法来源已经模糊了，不过 &lt;a href=&#34;https://book.douban.com/subject/26284789/&#34;&gt;《高效能人士的七个习惯》&lt;/a&gt; 中有很好的描述：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;现在请认真想一想，你希望人们对你以及你的生活有什么样的评价？你是个称职的丈夫、妻子、父母、子女或亲友吗？你是个令人怀念的同事或伙伴吗？你希望他们怎样评价你的人格？你希望他们回忆起你的哪些成就和贡献？你希望对周围人的生活施加过什么样的影响？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>新年答问之四：不自信，焦虑和不确定</title>
+      <link>https://yemengma.cn/post/220410-new-year-question-4/</link>
+      <pubDate>Sun, 10 Apr 2022 08:22:11 +0800</pubDate>
+      <guid>https://yemengma.cn/post/220410-new-year-question-4/</guid>
+      <description>&lt;h2 id=&#34;问题&#34;&gt;问题&lt;/h2&gt;&#xA;&lt;p&gt;我认为不自信来源于身边的不确定性，并且现在缺乏这种自信心且处于一种焦虑状态。应该如何去面对未来的不确定性来提升自己的自信心？&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;回答&#34;&gt;回答&lt;/h2&gt;&#xA;&lt;p&gt;什么是自信？自信是相信自己能够胜任某些特定任务。自信是和任务绑定的。没有人能胜任所有任务，没有人能对所有事自信；如果有，那也不是自信，而是自大狂妄。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>新年答问之三: 真要事必躬亲吗</title>
+      <link>https://yemengma.cn/post/220228-team-work/</link>
+      <pubDate>Tue, 01 Mar 2022 22:40:33 +0800</pubDate>
+      <guid>https://yemengma.cn/post/220228-team-work/</guid>
+      <description>&lt;h2 id=&#34;问题&#34;&gt;问题&lt;/h2&gt;&#xA;&lt;p&gt;团队合作中，个人总想做到最好，想要亲历所有过程。这种感觉应该如何调整？&lt;/p&gt;&#xA;&lt;h2 id=&#34;回答&#34;&gt;回答&lt;/h2&gt;&#xA;&lt;p&gt;完美主义者会有这种问题。对结果焦虑时经常会如此。对要解决的问题看得很重，会有这种表现。不信任他人的能力，会这样。不擅长沟通，往往会如此。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>新年答问之二：如何获得高效率</title>
+      <link>https://yemengma.cn/post/220107-high-efficiency/</link>
+      <pubDate>Mon, 21 Feb 2022 10:30:24 +0800</pubDate>
+      <guid>https://yemengma.cn/post/220107-high-efficiency/</guid>
+      <description>&lt;h2 id=&#34;问题&#34;&gt;问题&lt;/h2&gt;&#xA;&lt;p&gt;一直认为时间很重要，但是总感觉不能达到自己预期的效率，该怎么办？&lt;/p&gt;&#xA;&lt;h2 id=&#34;回答&#34;&gt;回答&lt;/h2&gt;&#xA;&lt;p&gt;这的确是个普遍困惑，普遍到已经有了一个细分类别，叫做“时间管理”或“个人生产力”。市面上有数千种书、数百种方法和工具都在尝试帮助人们解决这个问题，但是它们的效果完全取决于使用者的动机和努力。&#xA;不过我要先假设一下：你谈到的“效率”指的是脑力劳动的效率，即记忆、理解、创造智力产品的效率，而非体力劳动的效率。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>新年答问之一：读书的心态</title>
+      <link>https://yemengma.cn/post/220101-how-to-read/</link>
+      <pubDate>Sat, 01 Jan 2022 20:35:49 +0800</pubDate>
+      <guid>https://yemengma.cn/post/220101-how-to-read/</guid>
+      <description>&lt;h2 id=&#34;问题&#34;&gt;问题&lt;/h2&gt;&#xA;&lt;p&gt;除过专业发展方面的书，应该如何去寻找自己精神层面所需要的书籍？如何去高效读书？应抱着怎样一种心态？&lt;/p&gt;&#xA;&lt;h2 id=&#34;回答&#34;&gt;回答&lt;/h2&gt;&#xA;&lt;p&gt;这几个问题有点复杂，恐怕没有公认的正确答案。个人观点如下，未必正确，仅供参考。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>答问：哪些读书 APP 有让你体验很好的特点？</title>
+      <link>https://yemengma.cn/post/211024-about-reading-app/</link>
+      <pubDate>Sun, 24 Oct 2021 10:21:04 +0800</pubDate>
+      <guid>https://yemengma.cn/post/211024-about-reading-app/</guid>
+      <description>&lt;h2 id=&#34;问题&#34;&gt;问题&lt;/h2&gt;&#xA;&lt;p&gt;成为一些阅读软件或者学习软件的付费或订阅用户，比方说得到会员或者是亚马逊无限，在阅读体验上有什么不一样的点？或者是使用了多个阅读软件之后有哪个 APP 有让你印象深刻、体验非常好的服务？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>听说你想要改变？</title>
+      <link>https://yemengma.cn/post/211019-you-want-to-change/</link>
+      <pubDate>Tue, 19 Oct 2021 10:21:04 +0800</pubDate>
+      <guid>https://yemengma.cn/post/211019-you-want-to-change/</guid>
+      <description>&lt;p&gt;“我想要去努力。”唐陶陶说。&lt;/p&gt;&#xA;&lt;p&gt;“怎么努力？”我问。&lt;/p&gt;&#xA;&lt;p&gt;唐陶陶沉默了。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;唐陶陶是我外甥女，古怪精灵，人小鬼大，颇有庄子之风。&lt;/p&gt;&#xA;&lt;p&gt;最近大概是觉得继续洒脱下去会出问题，所以抛了这么个大问题给她舅舅我。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
