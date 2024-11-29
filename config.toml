@@ -184,7 +184,7 @@ copyright = "LifePlayer"   # default: author.name ↓        # 默认为下面�
     alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:mengma@vip.163.com"
+    a-email = "mailto:mengma2008@gmail.com"
 #    b-stack-overflow = "http://localhost:1313"
 #    c-twitter = "http://localhost:1313"
     d-facebook = "https://www.facebook.com/mengma2008/"
@@ -198,7 +198,7 @@ copyright = "LifePlayer"   # default: author.name ↓        # 默认为下面�
     l-tumblr = "https://www.tumblr.com/blog/mammoth2008"
     m-instagram = "https://www.instagram.com/mengma2008/"
 #    n-gitlab = "http://localhost:1313"
-    o-bilibili = "/slides/index.html"
+    o-bilibili = "https://slides.yemengma.cn"
 
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
