@@ -1,6 +1,6 @@
 ---
 title: "月寒日暖，来煎人寿 2024 Week 48 回顾"
-date: 2024-10-06 08:00:00+08:00
+date: 2024-11-30 08:00:00+08:00
 lastmod: 2024-10-06 08:00:00+08:00
 draft: false
 math: false
@@ -21,7 +21,9 @@ author: "猛犸"
 
 大概是“吾不识青天高，黄地厚；唯见月寒日暖，来煎人寿”吧。
 
-### 从给 Github 库瘦身开始
+![image-0](https://1-1256632535.cos.ap-beijing.myqcloud.com/img/image-0.jpeg)
+
+### 1. 从给 Github 库瘦身开始
 
 iCloud 空间不大够用，我打算把不常用的文件挪到 NAS 上去。整理文件时，发现有两个文件夹异常巨大：一个是用来存放和生成 Blog 的文件夹，另一个是存放课程幻灯片的。
 
@@ -83,7 +85,9 @@ git branch -u origin/gh-pages
 
 那就顺手备一个吧。
 
-2. 备案需要服务器
+![image-1](https://1-1256632535.cos.ap-beijing.myqcloud.com/img/image-1.jpeg)
+
+### 2. 备案需要服务器
 
 网站备案需要域名和服务器，而我没有服务器——Github 非常良心地提供了免费服务。
 
@@ -147,7 +151,9 @@ sudo nginx -t
 sudo systemctl restart nginx
 ```
 
-3. 人总是能懒则懒的
+![image-2](https://1-1256632535.cos.ap-beijing.myqcloud.com/img/image-2.jpeg)
+
+### 3. 人总是能懒则懒的
 
 所以总结一下，现在我修改完文件后，除了要提交到 Github 上之外，还要同步到云服务器上。
 
@@ -198,15 +204,21 @@ main
 
 ![slidesdeploy](https://1-1256632535.cos.ap-beijing.myqcloud.com/img/slidesdeploy.jpg)
 
-4. 重启解决 90% 问题
+### 4. 重启能解决 90% 问题
 
-现在网站可以通过多个方式访问：
+这次的“小问题”最终演变成了网站架构调整。现在的方案有几个明显改进：
 
-- Blog：yemengma.cn（GitHub Pages）和 lifeplayer.club（阿里云）
-- 幻灯片：slides.yemengma.cn（GitHub Pages）和 slides.lifeplayer.club（阿里云）
-- IP 直接访问也可以
+存储更合理了。因为删除了重复的文件和历史记录，为 Blog 和幻灯片分别建立了独立的仓库，所以 iCloud 空间节省了约 5G。仓库结构更清晰，便于维护。
 
-维护更简单了，访问更快捷了，感觉天都更蓝了！
+访问更便捷了。国内用户通过阿里云服务器快速访问，解决了相当大的问题。另外，依然保留 GitHub Pages 作为备用入口，也通过子域名让资源组织更清晰。
+
+部署更高效了。使用自动化脚本处理了大部分重复工作，也有了更完善的错误处理。省去了许多重复操作。
+
+还有点意外收获。重新捡起来了一点 Ubuntu 操作系统的用法——本来都已经忘差不多了。重新考虑网站架构，未来的扩展也很容易。
+
+Edsger W. Dijkstra（那个著名图算法的发明者）说：“简单性是可靠性的先决条件。”
+
+现在我的网站结构更简单了，访问更快捷了，维护更容易了，感觉天都更蓝了！
 
 ---
 
