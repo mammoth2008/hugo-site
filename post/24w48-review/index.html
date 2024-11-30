@@ -117,7 +117,7 @@
       <h1 class="post-title">月寒日暖，来煎人寿 2024 Week 48 回顾</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2024-10-06 </span>
+        <span class="post-time"> 2024-11-30 </span>
         <div class="post-category">
             <a href="/categories/%E7%94%9F%E6%B4%BB/"> 生活 </a>
             </div>
@@ -134,7 +134,10 @@
       <ul>
         <li>
           <ul>
-            <li><a href="#从给-github-库瘦身开始">从给 Github 库瘦身开始</a></li>
+            <li><a href="#1-从给-github-库瘦身开始">1. 从给 Github 库瘦身开始</a></li>
+            <li><a href="#2-备案需要服务器">2. 备案需要服务器</a></li>
+            <li><a href="#3-人总是能懒则懒的">3. 人总是能懒则懒的</a></li>
+            <li><a href="#4-重启能解决-90-问题">4. 重启能解决 90% 问题</a></li>
             <li><a href="#本周的成果">本周的成果</a></li>
             <li><a href="#本周的改变">本周的改变</a></li>
             <li><a href="#做得还不错">做得还不错</a></li>
@@ -154,7 +157,8 @@
 <p>想起来了。最初的问题，是 iCloud 空间不大够用来着。</p>
 <p>……但是怎么变成现在这样了呢？</p>
 <p>大概是“吾不识青天高，黄地厚；唯见月寒日暖，来煎人寿”吧。</p>
-<h3 id="从给-github-库瘦身开始">从给 Github 库瘦身开始</h3>
+<p><img src="https://1-1256632535.cos.ap-beijing.myqcloud.com/img/image-0.jpeg" alt="image-0"></p>
+<h3 id="1-从给-github-库瘦身开始">1. 从给 Github 库瘦身开始</h3>
 <p>iCloud 空间不大够用，我打算把不常用的文件挪到 NAS 上去。整理文件时，发现有两个文件夹异常巨大：一个是用来存放和生成 Blog 的文件夹，另一个是存放课程幻灯片的。</p>
 <p>Blog 是用 Hugo 生成的静态网站，幻灯片是基于 impress.js 设计的一组网页和资源。这两个文件夹都有自己的 Github 仓库，而且幻灯片文件夹还作为子模块引入了 Blog 仓库。我使用 Github Pages 托管 Blog，把我的域名 <a href="https://yemengma.cn">yemengma.cn</a> 指向了这个仓库，所以可以通过域名访问 Blog 和幻灯片。</p>
 <p>因为是和 Github 同步，所以这两个文件夹下都有用来记录历史的 .git 文件夹；而因为幻灯片作为子模块引入了 Blog 仓库，所以幻灯片的历史也被完整保存在 Blog 仓库中。</p>
@@ -224,9 +228,8 @@
 </div><p>第四步要去阿里云上设置域名解析。打开了多年没有登录的阿里云，找到域名解析，添加一条新的 CNAME 记录，把 slides.yemengma.cn 指向 mammoth2008.github.io……</p>
 <p>然后想起来，我的这个域名一直没备案。</p>
 <p>那就顺手备一个吧。</p>
-<ol start="2">
-<li>备案需要服务器</li>
-</ol>
+<p><img src="https://1-1256632535.cos.ap-beijing.myqcloud.com/img/image-1.jpeg" alt="image-1"></p>
+<h3 id="2-备案需要服务器">2. 备案需要服务器</h3>
 <p>网站备案需要域名和服务器，而我没有服务器——Github 非常良心地提供了免费服务。</p>
 <p>所以租了低配的阿里云服务器，有 2 核 CPU、2G 内存、3M 带宽，运行 Ubuntu 20.4，第一年租金不到 100 块。看见域名很便宜，也顺手买了个新域名 lifeplayer.club（目前备案没完成，无法访问），把 lifeplayer.club、www.lifeplayer.club、slides.lifeplayer.club 都解析到这个服务器的 IP 地址。</p>
 <p>浪费计算资源是要遭天谴的。于是把 Blog 和幻灯片都同步到服务器上，用 Nginx 配置两个站点，这样在国内访问的速度就会快很多——毕竟 Github 在国内的访问速度比较随机。</p>
@@ -330,9 +333,8 @@
 </span></span><span class="line"><span class="cl">sudo systemctl restart nginx
 </span></span></code></pre></td></tr></table>
 </div>
-</div><ol start="3">
-<li>人总是能懒则懒的</li>
-</ol>
+</div><p><img src="https://1-1256632535.cos.ap-beijing.myqcloud.com/img/image-2.jpeg" alt="image-2"></p>
+<h3 id="3-人总是能懒则懒的">3. 人总是能懒则懒的</h3>
 <p>所以总结一下，现在我修改完文件后，除了要提交到 Github 上之外，还要同步到云服务器上。</p>
 <p>嗯……所以更新一下部署脚本吧。</p>
 <p>以前我有一个部署脚本，用来在更新文件后提交到 Github 上。现在既然要改，不妨改大一点。除了更新 Github 和云服务器上的内容外，还要考虑特殊文件的处理，以及 Blog 在服务器上的重新生成。要尽量模块化，参数化，安全性也要增强一些。</p>
@@ -416,16 +418,14 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p><img src="https://1-1256632535.cos.ap-beijing.myqcloud.com/img/slidesdeploy.jpg" alt="slidesdeploy"></p>
-<ol start="4">
-<li>重启解决 90% 问题</li>
-</ol>
-<p>现在网站可以通过多个方式访问：</p>
-<ul>
-<li>Blog：yemengma.cn（GitHub Pages）和 lifeplayer.club（阿里云）</li>
-<li>幻灯片：slides.yemengma.cn（GitHub Pages）和 slides.lifeplayer.club（阿里云）</li>
-<li>IP 直接访问也可以</li>
-</ul>
-<p>维护更简单了，访问更快捷了，感觉天都更蓝了！</p>
+<h3 id="4-重启能解决-90-问题">4. 重启能解决 90% 问题</h3>
+<p>这次的“小问题”最终演变成了网站架构调整。现在的方案有几个明显改进：</p>
+<p>存储更合理了。因为删除了重复的文件和历史记录，为 Blog 和幻灯片分别建立了独立的仓库，所以 iCloud 空间节省了约 5G。仓库结构更清晰，便于维护。</p>
+<p>访问更便捷了。国内用户通过阿里云服务器快速访问，解决了相当大的问题。另外，依然保留 GitHub Pages 作为备用入口，也通过子域名让资源组织更清晰。</p>
+<p>部署更高效了。使用自动化脚本处理了大部分重复工作，也有了更完善的错误处理。省去了许多重复操作。</p>
+<p>还有点意外收获。重新捡起来了一点 Ubuntu 操作系统的用法——本来都已经忘差不多了。重新考虑网站架构，未来的扩展也很容易。</p>
+<p>Edsger W. Dijkstra（那个著名图算法的发明者）说：“简单性是可靠性的先决条件。”</p>
+<p>现在我的网站结构更简单了，访问更快捷了，维护更容易了，感觉天都更蓝了！</p>
 <hr>
 <p>本文由 Claude 和 Github Copilot 协助完成。未标明出处的配图由 FLUX-dev 生成。</p>
 <h3 id="本周的成果">本周的成果</h3>
@@ -486,13 +486,9 @@
           <a href="/tags/%E7%94%9F%E6%B4%BB/">生活</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/24w41-review/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">FSNotes 2024 Week 41 回顾</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
-        <a class="next" href="/post/24w40-review/">
-            <span class="next-text nav-default">解决问题的基本思路 2024 Week 40 回顾</span>
+        
+        <a class="next" href="/post/24w47-review/">
+            <span class="next-text nav-default">高效学习：基于科学证据的学习方法 2024 Week 47 回顾</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
