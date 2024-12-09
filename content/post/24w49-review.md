@@ -51,7 +51,7 @@ author: "猛犸"
 
 而自主，差不多是我们能为自己做的最好的事情了。
 
-![s35019868](https://1-1256632535.cos.ap-beijing.myqcloud.com/uPic/s35019868.jpg)
+![s35019868](https://1-1256632535.cos.ap-beijing.myqcloud.com/img/s35019868.jpg)
 
 ---
 
