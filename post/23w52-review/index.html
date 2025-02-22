@@ -23,7 +23,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.139.3 with theme even" />
+<meta name="generator" content="Hugo 0.144.2 with theme even" />
 
 
 <link rel="canonical" href="https://yemengma.cn/post/23w52-review/" />
@@ -157,8 +157,7 @@
 <p>捎带说明一下，本文主要讨论的是大语言模型中的提示词工程，因此文中没有使用“生成式人工智能”这个范围更大的术语，而全部都使用了“大语言模型”。</p>
 <h4 id="什么是提示词工程">什么是提示词工程</h4>
 <blockquote>
-<p>没想到答案，就不要寻找题目。</p>
-</blockquote>
+<p>没想到答案，就不要寻找题目。</p></blockquote>
 <p>但凡日常生活中接触到、使用过一些大语言模型产品的人，应该对提示词工程都不陌生。提示词工程是指通过设计和优化输入提示，引导大语言模型更有效、更精确地生成所需的内容。</p>
 <p><img src="https://1-1256632535.cos.ap-beijing.myqcloud.com/img/prompt.png" alt="prompt"></p>
 <p><a href="https://weibo.com/u/1727858283">@宝玉xp</a> 设计了一段效果很好的<a href="https://weibo.com/1727858283/NlsDSpPaa">翻译提示词</a>：</p>
@@ -172,15 +171,13 @@
 <li>根据新闻内容直译，不要遗漏任何信息</li>
 <li>根据第一次直译的结果重新意译，遵守原意的前提下让内容更通俗易懂，符合中文表达习惯</li>
 </ul>
-<p>本条消息只需要回复 OK，接下来的消息我将会给你发送完整内容，收到后请按照上面的规则打印两次翻译结果。</p>
-</blockquote>
+<p>本条消息只需要回复 OK，接下来的消息我将会给你发送完整内容，收到后请按照上面的规则打印两次翻译结果。</p></blockquote>
 <p>这段提示词中包含了角色扮演、规则设定，以及让大语言模型自行回顾和改善。显然，这和人类日常对话的方式不同。这也就意味着，提示词工程是一种需要学习才能掌握的技能——虽然门槛不高，但是还是要学习的。</p>
 <p>这和人们期盼的“使用 AI 应该像和人聊天”，显然差距不小。</p>
 <p>有一种观点认为，随着 AI 大模型的能力越来越强，对真实世界的理解越来越多，人们将会越来越容易使用自然语言与 AI 沟通，提示词工程将不再有用武之地。2022 年 9 月 13 日，OpenAI 的 Sam Altman 和 LinkedIn 的 Reid Hoffman 有一场<a href="https://www.youtube.com/watch?v=WHoWGNQRXb0&amp;t=1523s">对谈</a>。Sam Altman 认为提示词工程是个短期需求：</p>
 <blockquote>
 <p>“5 年后我们将不再需要提示词工程，或者只需在这方面做少量工作。将来的 AI 系统不会因为增补了某个特定词就会产生截然不同的输出，而是可以较好地理解自然语言，用户只需以文本和语音形式输入指令，即可让计算机完成图像生成、资料研究、心理咨询等复杂任务。”</p>
-<p>“总的来说，用户只须使用自然语言就可以与计算机交互，当然，如果艺术家能想出更有创造性的描述，也自然就可以生成更好的图像。”</p>
-</blockquote>
+<p>“总的来说，用户只须使用自然语言就可以与计算机交互，当然，如果艺术家能想出更有创造性的描述，也自然就可以生成更好的图像。”</p></blockquote>
 <p>AI 大佬<a href="https://en.wikipedia.org/wiki/Yann_LeCun">杨立昆</a>也支持这种观点。他认为，之所以需要提示词工程，是因为现在的大语言模型的理解能力还比较弱。</p>
 <p><img src="https://1-1256632535.cos.ap-beijing.myqcloud.com/img/CleanShot%202023-12-17%20at%2016.06.40@2x.png" alt="Yann LeCun"></p>
 <p><img src="https://1-1256632535.cos.ap-beijing.myqcloud.com/img/CleanShot%202023-12-17%20at%2016.08.09@2x.png" alt="Yann LeCun"></p>
@@ -193,8 +190,7 @@
 <p>除了这两个问题之外，还有一个更不容易解决的问题：幻觉。</p>
 <h4 id="大模型是场梦">大模型是场梦</h4>
 <blockquote>
-<p>世事一场大梦，人生几度秋凉。</p>
-</blockquote>
+<p>世事一场大梦，人生几度秋凉。</p></blockquote>
 <p>今年剑桥词典选出的年度词是 hallucinate。这是个动词，意思是“产生幻觉”，特指大语言模型一本正经地胡说八道。</p>
 <p><img src="https://1-1256632535.cos.ap-beijing.myqcloud.com/img/CleanShot%202023-12-31%20at%2014.20.13@2x.png" alt="Cambridge Dictionary"></p>
 <p>12 月初，OpenAI 的计算机科学家 <a href="https://karpathy.ai/">Andrej Karpathy</a> 写了篇<a href="https://twitter.com/karpathy/status/1733299213503787018">短文</a>，讨论了大语言模型的幻觉问题。他认为，本质上来看，大语言模型就是在做梦。幻觉不是大模型的问题，它是大模型的工作方式。或者说，它不是大语言模型的缺陷，而是大语言模型的特征。</p>
@@ -205,8 +201,7 @@
 <p>Karpathy 认为，当人们将大语言模型变成工作助手时，幻觉才成了需要解决的问题。人们需要引导大语言模型助手往正确的方向去做梦。也许检索增强生成（RAG, Retrieval-Augmented Generation）是个方向，但是它并非唯一方向。</p>
 <h4 id="提示词工程视角的问题视角">提示词工程视角的问题视角</h4>
 <blockquote>
-<p>问题其实就是你期望的东西和你体验的东西之间的差别。</p>
-</blockquote>
+<p>问题其实就是你期望的东西和你体验的东西之间的差别。</p></blockquote>
 <p>所以我们可以看出，所谓提示词工程，就是在理解大语言模型基本原理的基础上，尝试设计一个文本序列，让大语言模型产生更好的结果的一系列活动。</p>
 <p>其核心是准确描述问题，限制产生的回应。膜拜提示词工程、背下提示词模板，都没什么意义。提示词会随不同的大语言模型而变，但是规则始终如一。</p>
 <p><img src="https://1-1256632535.cos.ap-beijing.myqcloud.com/img/neon-god.png" alt="neon-god"></p>
