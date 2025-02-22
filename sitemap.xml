@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yemengma.cn/post/</loc>
+    <lastmod>2025-02-23T08:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yemengma.cn/</loc>
+    <lastmod>2025-02-23T08:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://yemengma.cn/categories/</loc>
     <lastmod>2025-02-16T08:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -9,21 +23,7 @@
   </url>
   
   <url>
-    <loc>https://yemengma.cn/post/</loc>
-    <lastmod>2025-02-16T08:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yemengma.cn/tags/</loc>
-    <lastmod>2025-02-16T08:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yemengma.cn/</loc>
     <lastmod>2025-02-16T08:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -88,13 +88,6 @@
   <url>
     <loc>https://yemengma.cn/post/25w01-review/</loc>
     <lastmod>2025-01-11T08:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yemengma.cn/post/25w07-review/</loc>
-    <lastmod>2025-01-04T08:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
