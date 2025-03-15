@@ -1,7 +1,7 @@
 ---
-title: "要明白多少道理，才能过好一生——Gemini 的 DeepResearch 2025 Week 10 回顾"
-date: 2025-01-04 08:00:00+08:00
-lastmod: 2025-01-04 08:00:00+08:00
+title: "要明白多少道理，才能过好一生——Gemini DeepResearch 2025 Week 10 回顾"
+date: 2025-03-15 08:00:00+08:00
+lastmod: 2025-03-15 08:00:00+08:00
 draft: false
 math: false
 keywords: [回顾, 想法, 生活]
@@ -11,7 +11,7 @@ categories: [生活]
 author: "猛犸"
 ---
 
-跟 [Get 笔记](https://www.biji.com/)唠叨了五分钟，它帮我整理出了以下文本。
+跟 [Get 笔记](https://www.biji.com/)唠叨了**五分钟**，它帮我整理出了以下文本。
 
 ---
 
@@ -33,15 +33,15 @@ Google 的 [Gemini 2.0](https://gemini.google.com/) 现在推出 DeepResearch �
 
 > 以下是一段录音记录转成的文本。请考虑其内容，提出相同、相似、相反的观点，和我讨论，把它修改为一篇博客文章。
 
-Gemini 很快列出了方案：
+Gemini **几秒钟**就列出了方案：
 
 ![gemini1](https://1-1256632535.cos.ap-beijing.myqcloud.com/img/gemini1.png)
 
-不到两分钟，Gemini 就找了一百个网页，生成了一篇文章，标记出了引用。
+不到**两分钟**，Gemini 就找了一百个网页，生成了一篇文章，标记出了引用。
 
 ![gemini2](https://1-1256632535.cos.ap-beijing.myqcloud.com/img/gemini2.png)
 
-让 [Grok 3](https://grok.com/) 用 Markdown 语法处理了一下链接。Grok 3 想了一会儿：
+让 [Grok 3](https://grok.com/) 用 Markdown 语法处理了一下链接。Grok 3 想了 **102 秒**：
 
 ![grok1](https://1-1256632535.cos.ap-beijing.myqcloud.com/img/grok1.png)
 
