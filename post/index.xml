@@ -6,8 +6,15 @@
     <description>Recent content in Posts on 人生玩家</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 29 Mar 2025 08:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 05 Apr 2025 08:00:00 +0800</lastBuildDate>
     <atom:link href="https://yemengma.cn/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>太多的抽象 2025 Week 13 回顾</title>
+      <link>https://yemengma.cn/post/25w13-review/</link>
+      <pubDate>Sat, 05 Apr 2025 08:00:00 +0800</pubDate>
+      <guid>https://yemengma.cn/post/25w13-review/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;注：这篇文章来自 &lt;a href=&#34;https://unixdigest.com&#34;&gt;unixdigest.com&lt;/a&gt;，一个个人网站。&lt;/p&gt;&#xA;&lt;p&gt;这个网站的拥有者是位丹麦人，没有透露真实姓名。他自称 70 年代出生，12 岁开始在 &lt;a href=&#34;https://en.wikipedia.org/wiki/Sharp_MZ-800&#34;&gt;Sharp MZ-800&lt;/a&gt; 上用 &lt;a href=&#34;https://en.wikipedia.org/wiki/BASIC&#34;&gt;BASIC&lt;/a&gt; 编程，15 岁时在一家安全和通信公司找到一份技术相关的工作。现在他是系统和网络管理员、程序员，技能基本上靠自学得来。他是一位&lt;a href=&#34;https://en.wikipedia.org/wiki/Free_software&#34;&gt;自由软件&lt;/a&gt;倡导者，在 &lt;a href=&#34;https://github.com/unixdigest&#34;&gt;Github&lt;/a&gt; 上免费提供了两本自己写的书，涉及 &lt;a href=&#34;https://github.com/unixdigest/openbsd-router-guide&#34;&gt;FreeBSD 操作系统&lt;/a&gt; 和 &lt;a href=&#34;https://github.com/unixdigest/phpthewrongway&#34;&gt;PHP 语言&lt;/a&gt;。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>减少量化自我，增加决策反思 2025 Week 12 回顾</title>
       <link>https://yemengma.cn/post/25w12-review/</link>
