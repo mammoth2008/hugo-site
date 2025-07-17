@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44.1"
+   width="653"
+   height="532"
+   version="1.0"
+   sodipodi:docbase="C:\Wiki Uploads\To Upload"
+   sodipodi:docname="BloomsCognitiveDomain.svg">
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     inkscape:window-height="573"
+     inkscape:window-width="853"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="0.70864662"
+     inkscape:cx="326.5"
+     inkscape:cy="266"
+     inkscape:window-x="66"
+     inkscape:window-y="87"
+     inkscape:current-layer="svg2" />
+  <path
+     style="fill:#e3e4e5;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+     d="M 45.156499,40.923077 C 595.50133,40.923077 598.32361,40.923077 598.32361,40.923077 L 396.5305,485.43236 L 239.8939,485.43236 L 45.156499,40.923077 z "
+     id="path1903" />
+  <text
+     xml:space="preserve"
+     style="font-size:36px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+     x="115.71352"
+     y="111.48009"
+     id="text1873"><tspan
+       sodipodi:role="line"
+       id="tspan1875"
+       x="115.71352"
+       y="111.48009"
+       style="font-size:22px;font-family:Verdana">Analyze</tspan></text>
+  <text
+     id="text1877"
+     y="112.89123"
+     x="273.76126"
+     style="font-size:36px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+     xml:space="preserve"><tspan
+       style="font-size:22px;font-family:Verdana"
+       y="112.89123"
+       x="273.76126"
+       id="tspan1879"
+       sodipodi:role="line">Evaluate</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:36px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+     x="444.50928"
+     y="112.89123"
+     id="text1881"><tspan
+       sodipodi:role="line"
+       id="tspan1883"
+       x="444.50928"
+       y="112.89123"
+       style="font-size:22px;font-family:Verdana">Create</tspan></text>
+  <text
+     id="text1889"
+     y="224.37134"
+     x="292.10611"
+     style="font-size:36px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+     xml:space="preserve"><tspan
+       style="font-size:22px;font-family:Verdana"
+       y="224.37134"
+       x="292.10611"
+       id="tspan1891"
+       sodipodi:role="line">Apply</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:36px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+     x="259.64987"
+     y="335.85144"
+     id="text1893"><tspan
+       sodipodi:role="line"
+       id="tspan1895"
+       x="259.64987"
+       y="335.85144"
+       style="font-size:22px;font-family:Verdana">Understand</tspan></text>
+  <text
+     id="text1897"
+     y="438.86469"
+     x="262.47214"
+     style="font-size:36px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+     xml:space="preserve"><tspan
+       style="font-size:22px;font-family:Verdana"
+       y="438.86469"
+       x="262.47214"
+       id="tspan1899"
+       sodipodi:role="line">Remember</tspan></text>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:white;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 98.062558,163.51592 C 541.90255,163.51592 543.30268,163.51592 543.30268,163.51592 L 98.062558,163.51592 z "
+     id="path4578" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:white;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 143.76444,267.41114 C 496.18783,267.41114 496.18783,267.41114 496.18783,267.41114 L 143.76444,267.41114 z "
+     id="path4580" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:white;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 192.746,379.47209 C 444.61408,379.47209 445.32158,379.47209 445.32158,379.47209 L 192.746,379.47209 z "
+     id="path4582" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:white;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 243.75761,163.32259 L 219.14077,40.595163 L 243.75761,163.32259 z "
+     id="path7241" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:white;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 395.8411,163.32335 L 420.08915,40.656775 L 395.8411,163.32335 z "
+     id="path7243" />
+</svg>
