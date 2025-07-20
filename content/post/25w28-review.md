@@ -33,7 +33,7 @@ author: "猛犸"
 
 智能手机及其所通向的注意力经济世界，寄生在用户的时间、注意力和精神之上，吸食最宝贵的时间和注意力资源，排泄出空虚、焦虑和无休止的社会攀比。
 
-这并非偶然。智能手机从工具变成寄生虫，是人类历史上最成功的行为改造案例。由[阿萨·拉斯金](https://en.wikipedia.org/wiki/Aza_Raskin)（Aza Raskin）发明的[无限滚屏](https://www.bbc.com/worklife/article/20210819-the-engineers-of-addiction)、类似[斯金纳箱](https://en.wikipedia.org/wiki/Operant_conditioning_chamber)的[“点赞”的变动奖励机制](https://behavioralscientist.org/the-unsung-psychology-of-the-like-button/)、精准得令人战栗的[推荐算法](https://lifeplayer.club/post/2025-07-01-tue/)，目标并不是提高效率，而是提高黏性，强化依赖。
+这并非偶然。智能手机从工具变成寄生虫，是人类历史上最成功的行为改造案例。由[阿萨·拉斯金](https://en.wikipedia.org/wiki/Aza_Raskin)（Aza Raskin）发明的无限滚屏、类似[斯金纳箱](https://en.wikipedia.org/wiki/Operant_conditioning_chamber)的“点赞”的变动奖励机制、精准得令人战栗的[推荐算法](https://lifeplayer.club/post/2025-07-01-tue/)，目标并不是提高效率，而是提高黏性，强化依赖。
 
 也就是让人[上瘾](https://book.douban.com/subject/27030507/)。
 
