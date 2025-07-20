@@ -15,7 +15,7 @@ author: "猛犸"
 
 ---
 
-本文由 协助完成。未标明出处的配图由 生成。
+本文由 [Gemini 2.5 Pro](https://gemini.google.com/)、[ChatGPT](https://chatgpt.com/)、[Claude 4.0 Sonnet](https://claude.ai/) 协助完成。配图来自 [Unsplash](https://unsplash.com/)。
 
 ### 本周的成果
 
