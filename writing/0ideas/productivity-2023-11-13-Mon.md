@@ -4,20 +4,25 @@
 
 这六个方面是：
 
-Work Product. Participants considered the output of the activities as an important aspect contributing to their productivity. We identified four factors constituting the work product: concrete output and progress, conceptual achievement, quality of the output, and quantity of the output. 
+Work Product. Participants considered the output of the activities as an important aspect contributing to their productivity. We identified four factors constituting the work product: concrete output and progress, conceptual achievement, quality of the output, and quantity of the output.  
+
 工作成果。参与者认为活动的产出是对他们的生产力做出重要贡献的重要方面。我们确定了构成工作成果的四个因素：具体产出和进展、概念成就、产出质量和产出数量。
 
 
-Time Management. Recognizing time as a limited resource of life [54], participants reflected on time-related factors of their activities. We identified three time-related factors: efficiency & intensity, punctuality, and use of spare time. 
-时间管理。认识到时间是生活中有限的资源[54]，参与者反思了他们活动中与时间相关的因素。我们确定了三个与时间相关的因素：效率和强度、守时和利用空闲时间。
+Time Management. Recognizing time as a limited resource of life [54](), participants reflected on time-related factors of their activities. We identified three time-related factors: efficiency & intensity, punctuality, and use of spare time.  
 
-Worker's State. Personal states during or after the activity affected how participants perceive their performance or productivity. Participants captured three major states: attention and distraction, emotional state, and physical state. 
+时间管理。认识到时间是生活中有限的资源[54]()，参与者反思了他们活动中与时间相关的因素。我们确定了三个与时间相关的因素：效率和强度、守时和利用空闲时间。
+
+Worker's State. Personal states during or after the activity affected how participants perceive their performance or productivity. Participants captured three major states: attention and distraction, emotional state, and physical state.  
+
 工作者的状态。在活动期间或之后，个人的状态会影响参与者对自己的表现或生产力的感知。参与者捕捉到三种主要状态：注意力和分心、情绪状态和身体状态。
 
-Attitude Toward Work. Participants’ attitude toward a task influenced their perceived productivity—i.e., differences in receptiveness such as personal values, meaningfulness, significance, or willingness yielded different perception of productivity. We identified four salient types of such receptiveness: chores and mundane tasks, enjoyment, significance, and rewarding self-regulation. 
+Attitude Toward Work. Participants’ attitude toward a task influenced their perceived productivity—i.e., differences in receptiveness such as personal values, meaningfulness, significance, or willingness yielded different perception of productivity. We identified four salient types of such receptiveness: chores and mundane tasks, enjoyment, significance, and rewarding self-regulation.  
+
 对工作的态度。参与者对任务的态度影响了他们对生产力的感知，即对接受程度的差异，如个人价值观、意义、重要性或意愿产生了不同的生产力感知。我们确定了四种显著的接受程度类型：家务和平凡的任务、享受、重要性和有益的自我调节。
 
-Impact and Benefit. Participants valued the activities that have potential benefits on their careers, relationships, well-being, or finance. We identified four types of impact and benefits: long-term career benefit, social and spiritual benefit, self-management & well-being, and monetary rewards. 
+Impact and Benefit. Participants valued the activities that have potential benefits on their careers, relationships, well-being, or finance. We identified four types of impact and benefits: long-term career benefit, social and spiritual benefit, self-management & well-being, and monetary rewards.  
+
 影响和利益。参与者重视那些可能对他们的职业、人际关系、健康或财务有潜在好处的活动。我们确定了四种影响和利益：长期职业利益、社交和精神利益、自我管理与健康以及金钱回报。
 
 Compound Task. Sometimes, a few tasks were interleaved and performed in parallel. We identified three situations that involve compound tasks: task switching by interruptions, multitasking, and unexpected issues.
