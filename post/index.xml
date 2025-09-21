@@ -6,8 +6,15 @@
     <description>Recent content in Posts on 人生玩家</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Sep 2025 08:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 21 Sep 2025 08:00:00 +0800</lastBuildDate>
     <atom:link href="https://yemengma.cn/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一个分层专家提示词框架 250921 Sun</title>
+      <link>https://yemengma.cn/post/2025-09-21-sun/</link>
+      <pubDate>Sun, 21 Sep 2025 08:00:00 +0800</pubDate>
+      <guid>https://yemengma.cn/post/2025-09-21-sun/</guid>
+      <description>&lt;p&gt;今天介绍一个多专家框架。这个框架让 AI 表现得像多位专家一样，然后将他们的见解融合成一个计划。&lt;/p&gt;&#xA;&lt;p&gt;它是分步操作的：&lt;/p&gt;&#xA;&lt;p&gt;定义专家角色（3-4 个效果最佳）；分别向每个角色询问他们的最佳策略；将见解整合到一个综合路线图中；以明确的下一步行动结束。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>周末放松一下，来看看 AI 短片吧 2025 Week 37 回顾</title>
       <link>https://yemengma.cn/post/25w37-review/</link>

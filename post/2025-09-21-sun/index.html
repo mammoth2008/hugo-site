@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>一个分层专家提示词框架 250921 Sun - 人生玩家</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="猛犸" /><meta name="description" content="今天介绍一个多专家框架。这个框架让 AI 表现得像多位专家一样，然后将他们的见解融合成一个计划。
+它是分步操作的：
+定义专家角色（3-4 个效果最佳）；分别向每个角色询问他们的最佳策略；将见解整合到一个综合路线图中；以明确的下一步行动结束。
+" /><meta name="keywords" content="想法, 读书, 生活" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.148.2 with theme even" />
+
+
+<link rel="canonical" href="https://yemengma.cn/post/2025-09-21-sun/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.9bad5f5b56373b1bc2b78b0a8ff8da6ebe70b08b78f9a794fc61fad57c06efc4.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">人生玩家</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo"><img src="/mstile-150x150.png" style="width: 42px; height: 42px; display: inline-block; vertical-align: -4px;">人生玩家</a>
+</div>
+
+
+
+
+</style>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [["$", "$"]],
+    },
+    displayMath: [
+      ["$$", "$$"],
+      ["\[\[", "\]\]"],
+    ],
+    svg: {
+      fontCache: "global",
+    },
+  };
+</script>
+
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$']]}
+    });
+</script>
+
+<script type="text/javascript" async  src="/lib/mathjax/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+</script>
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">一个分层专家提示词框架 250921 Sun</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2025-09-21 </span>
+        <div class="post-category">
+            <a href="/categories/%E6%83%B3%E6%B3%95/"> 想法 </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#示例">示例</a>
+          <ul>
+            <li><a href="#提问">提问</a></li>
+            <li><a href="#回答">回答</a></li>
+          </ul>
+        </li>
+        <li><a href="#-四位专家的建议">🎯 四位专家的建议</a>
+          <ul>
+            <li><a href="#-变现教练">💰 变现教练</a></li>
+            <li><a href="#-社交媒体增长黑客">🚀 社交媒体增长黑客</a></li>
+            <li><a href="#-视频编辑">🎬 视频编辑</a></li>
+            <li><a href="#-bilibili-内容策略师">📈 Bilibili 内容策略师</a></li>
+          </ul>
+        </li>
+        <li><a href="#-综合执行计划每周工作流">🔗 综合执行计划（每周工作流）</a>
+          <ul>
+            <li><a href="#周一策划">周一：策划</a></li>
+            <li><a href="#周二脚本--拍摄">周二：脚本 &amp; 拍摄</a></li>
+            <li><a href="#周三剪辑">周三：剪辑</a></li>
+            <li><a href="#周四发布">周四：发布</a></li>
+            <li><a href="#周五推广">周五：推广</a></li>
+            <li><a href="#周六运营">周六：运营</a></li>
+            <li><a href="#周日复盘">周日：复盘</a></li>
+          </ul>
+        </li>
+        <li><a href="#-下一步行动">✅ 下一步行动</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>今天介绍一个多专家框架。这个框架让 AI 表现得像多位专家一样，然后将他们的见解融合成一个计划。</p>
+<p>它是分步操作的：</p>
+<p>定义专家角色（3-4 个效果最佳）；分别向每个角色询问他们的最佳策略；将见解整合到一个综合路线图中；以明确的下一步行动结束。</p>
+<p>这个框架比较简单，不过它可以实现多视角叠加，形成完整策略，覆盖常规询问 AI 时可能遗漏的盲点。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">I want insights on growing a Bilibili channel.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gu">### Act as 4 experts:
+</span></span></span><span class="line"><span class="cl"><span class="gu"></span>
+</span></span><span class="line"><span class="cl"><span class="k">-</span> A Bilibili content strategist.
+</span></span><span class="line"><span class="cl"><span class="k">-</span> A video editor.
+</span></span><span class="line"><span class="cl"><span class="k">-</span> A social media growth hacker.
+</span></span><span class="line"><span class="cl"><span class="k">-</span> A monetization coach.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Each expert should give me their top 3 strategies. Then combine them into one step-by-step plan with clear next actions.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gu">### Working example:
+</span></span></span><span class="line"><span class="cl"><span class="gu"></span>
+</span></span><span class="line"><span class="cl">Strategist: Niche down, create binge playlists, track CTR.
+</span></span><span class="line"><span class="cl">Editor: Master 3-sec hooks, consistent editing style, captions.
+</span></span><span class="line"><span class="cl">Growth Hacker: Cross-promote on Shorts, engage in comments, repurpose clips.
+</span></span><span class="line"><span class="cl">Monetization Coach: Sponsorships, affiliate links.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Final Output: A hybrid weekly workflow that feels like advice from a full consulting team.
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">我想了解如何增长 Bilibili 频道的见解。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gu">### 请扮演 4 位专家：
+</span></span></span><span class="line"><span class="cl"><span class="gu"></span>
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 一个变现教练。
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 一个社交媒体增长黑客。
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 一位视频编辑。
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 一位 Bilibili 内容策略师。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">每位专家都应该给我提供他们的最好的 3 个策略，然后将它们整合成一个分步骤的计划，并明确下一步行动。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gu">### 工作示例：
+</span></span></span><span class="line"><span class="cl"><span class="gu"></span>策略师：关注细分领域，创建连续播放列表，追踪点击率。
+</span></span><span class="line"><span class="cl">编辑：掌握 3 秒钩子技巧，保持一致的编辑风格，添加字幕。
+</span></span><span class="line"><span class="cl">增长黑客：在短视频平台上交叉推广，参与评论互动，重新剪辑内容。
+</span></span><span class="line"><span class="cl">变现导师：赞助合作，联盟链接。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">最终输出：一个混合的每周工作流程，感觉就像来自完整咨询团队的建议。
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="示例">示例</h2>
+<h3 id="提问">提问</h3>
+<p>将以上提示词扔给 AI。</p>
+<h3 id="回答">回答</h3>
+<p>好的，我们来模拟一场四位专家的联合咨询。我会分别以 <strong>变现教练</strong>、<strong>社交媒体增长黑客</strong>、<strong>视频编辑</strong> 和 <strong>Bilibili 内容策略师</strong> 的身份给出各自的三条核心策略，最后再整合成一个实际可执行的分步骤周工作流。</p>
+<hr>
+<h2 id="-四位专家的建议">🎯 四位专家的建议</h2>
+<h3 id="-变现教练">💰 变现教练</h3>
+<ol>
+<li><strong>赞助合作</strong>：在频道有一定粉丝后，主动联系与你内容相关的品牌，尤其是小众品牌，他们更愿意尝试合作。</li>
+<li><strong>私域产品</strong>：尝试售卖电子书、课程、工具包等数字产品（尤其适合教学/知识类内容）。</li>
+<li><strong>多渠道收益</strong>：不要只依赖 Bilibili 广告分成，同时布局淘宝/小红书/公众号做延伸，打造多平台矩阵。</li>
+</ol>
+<hr>
+<h3 id="-社交媒体增长黑客">🚀 社交媒体增长黑客</h3>
+<ol>
+<li><strong>跨平台引流</strong>：将 Bilibili 内容二次剪辑成 30–60 秒短视频，分发到抖音/快手/小红书，用流量反哺主频道。</li>
+<li><strong>评论区运营</strong>：高赞评论本身也是曝光入口，每次更新视频后要积极在其他相关视频下留言，保持活跃。</li>
+<li><strong>数据驱动优化</strong>：每周检查播放完成率、点击率，立刻复盘标题/封面/首 30 秒内容。</li>
+</ol>
+<hr>
+<h3 id="-视频编辑">🎬 视频编辑</h3>
+<ol>
+<li><strong>3 秒钩子</strong>：开头必须快速点题，用字幕+音效+画面制造吸引力（提问、冲突、结果预告）。</li>
+<li><strong>节奏感</strong>：每 8–12 秒要有镜头/画面/元素变化，避免长时间停留在单一镜头。</li>
+<li><strong>全程字幕 &amp; Bilibili 风格贴纸</strong>：保证信息传达清晰，同时增加轻松感，贴合 B 站用户偏好。</li>
+</ol>
+<hr>
+<h3 id="-bilibili-内容策略师">📈 Bilibili 内容策略师</h3>
+<ol>
+<li><strong>垂直细分领域</strong>：B 站用户喜欢“专家型 UP”，选择一个清晰的细分定位（如 AI 学习技巧、游戏剧情解析）。</li>
+<li><strong>系列化内容</strong>：做成连续专栏或播放列表（如“10 天入门…”、“系列解析…”），培养追更习惯。</li>
+<li><strong>社区互动</strong>：每期视频引导观众投币/收藏/转发，并在动态、专栏里补充资料，增加曝光机会。</li>
+</ol>
+<hr>
+<h2 id="-综合执行计划每周工作流">🔗 综合执行计划（每周工作流）</h2>
+<h3 id="周一策划">周一：策划</h3>
+<ul>
+<li>明确本周 1–2 个主题，确保属于你的细分领域。</li>
+<li>为每个视频写出标题草案（带悬念或直接收益点）。</li>
+<li>设计本周的“系列化框架”，比如三期连贯。</li>
+</ul>
+<h3 id="周二脚本--拍摄">周二：脚本 &amp; 拍摄</h3>
+<ul>
+<li>写简短脚本（突出 3 秒钩子，核心信息点 3–5 个）。</li>
+<li>拍摄原始素材，留意多角度镜头和 B-roll。</li>
+</ul>
+<h3 id="周三剪辑">周三：剪辑</h3>
+<ul>
+<li>应用 <strong>3 秒钩子</strong> 和 <strong>节奏变化</strong>，加上全程字幕。</li>
+<li>制作一张高对比度、清晰主题的封面图。</li>
+</ul>
+<h3 id="周四发布">周四：发布</h3>
+<ul>
+<li>上传 Bilibili 正片，配好标题+标签+分区。</li>
+<li>设置好播放列表（系列化），让新观众能连续观看。</li>
+</ul>
+<h3 id="周五推广">周五：推广</h3>
+<ul>
+<li>将视频二剪成 30–60 秒短视频，发到抖音/小红书/快手。</li>
+<li>去相关 B 站视频评论区积极互动，留下有价值的见解。</li>
+</ul>
+<h3 id="周六运营">周六：运营</h3>
+<ul>
+<li>回复观众评论，动态/专栏补充资料，保持账号活跃。</li>
+<li>私信有潜力的合作方，探索小额赞助或产品推广。</li>
+</ul>
+<h3 id="周日复盘">周日：复盘</h3>
+<ul>
+<li>查看数据（点击率、播放完成率、评论量）。</li>
+<li>总结有效做法，记录在“复盘日志”，下周迭代。</li>
+</ul>
+<hr>
+<h2 id="-下一步行动">✅ 下一步行动</h2>
+<ol>
+<li><strong>选择一个细分定位</strong>（例：AI 学习技巧、影视解说、职场技能）。</li>
+<li><strong>确定下周 2 个视频选题</strong>，写出标题草案和大纲。</li>
+<li><strong>建立复盘日志</strong>（Excel 或 Notion），从下周开始追踪数据和调整策略。</li>
+</ol>
+<hr>
+<p>要不要我帮你 <strong>根据你现在的频道定位/兴趣</strong>，具体写出下周的 2 个视频选题草案？</p>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">猛犸</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2025-09-21
+        
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/%E6%83%B3%E6%B3%95/">想法</a>
+          <a href="/tags/%E7%94%9F%E6%B4%BB/">生活</a>
+          <a href="/tags/%E7%AC%94%E8%AE%B0/">笔记</a>
+          </div>
+      <nav class="post-nav">
+        
+        <a class="next" href="/post/25w37-review/">
+            <span class="next-text nav-default">周末放松一下，来看看 AI 短片吧 2025 Week 37 回顾</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:mengma2008@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://www.facebook.com/mengma2008/" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="https://github.com/mammoth2008" class="iconfont icon-github" title="github"></a>
+      <a href="https://weibo.com/ilifeplayer" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com/people/mengma" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="https://www.douban.com/people/mammoth2008" class="iconfont icon-douban" title="douban"></a>
+      <a href="https://www.tumblr.com/blog/mammoth2008" class="iconfont icon-tumblr" title="tumblr"></a>
+      <a href="https://www.instagram.com/mengma2008/" class="iconfont icon-instagram" title="instagram"></a>
+      <a href="https://slides.yemengma.cn" class="iconfont icon-bilibili" title="bilibili"></a>
+  
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2017 - 
+    2025<span class="heart"><i class="iconfont icon-heart"></i></span><span></span>
+  </span>
+
+  
+  
+  <span>
+        <a href="https://beian.mps.gov.cn/" style="text-shadow: none; font-size: 14px; " target="_blank">
+            <img class="icon"; src="static/img/beianicon.png" style="width: 20px; height: 20px; vertical-align: -5px; margin-right: 5px;">黑公网安备23010302001726号</a>
+        &nbsp;</span>
+        <span class="division">|</span>
+        <span>&nbsp; 
+        <a href="https://beian.miit.gov.cn/" style="text-shadow: none; font-size: 14px; " target="_blank">黑ICP备2024033110号-1</a>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.4ae89da218555efa0e7093a20b92017d2e1202b66fff9fc2edf4cb8d44b44c6e.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        tags: 'ams',
+        }
+    };
+  </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      "CommonHTML": {
+        scale: 100
+      }
+      });
+    </script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
