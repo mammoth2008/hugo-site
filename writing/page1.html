@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>杂志页 - AI 浏览器战火重燃（第1页）</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Source+Han+Sans+CN:wght@300;400;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = { darkMode: 'class' }
+</script>
+<style>
+  :root{
+    --page-w:700px;
+    --page-h:1160px;
+    --pad-vertical:48px;
+    --pad-horizontal:56px;
+  }
+  body { font-family: 'Source Han Sans CN', sans-serif; font-weight: 300; background:#e6e6e6; }
+  h1, h2, h3, blockquote { font-family: 'Noto Serif SC', serif; }
+  .magazine-shell { min-height:100vh; display:flex; align-items:center; justify-content:center; padding:24px; }
+  .magazine-page {
+    width: var(--page-w);
+    height: var(--page-h); /* 固定高度 */
+    background: #fefefe;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* 关键：防止任何内容溢出 */
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    border-radius: 8px;
+    padding: var(--pad-vertical) var(--pad-horizontal);
+    box-sizing: border-box;
+  }
+  .header {
+    margin-bottom: 8px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .chapter {
+    font-size: 14px;
+    color: #9ca3af;
+    letter-spacing: 0.08em;
+  }
+  .title {
+    font-size: 40px;
+    line-height: 1.06;
+    font-weight:700;
+    margin-top:6px;
+    margin-bottom:8px;
+    color:#0f172a;
+  }
+  .lead {
+    font-size:16px;
+    line-height:1.6;
+    color:#374151;
+    margin-bottom:12px;
+    font-weight:400;
+  }
+
+  .content {
+    /* 内容区高度预算：页面总高 - header - footer - paddings */
+    /* 具体数值为经验值，以防止溢出 */
+    overflow: hidden; /* 不显示溢出（但我们保证内容实际不会被遮挡） */
+    padding-right: 4px;
+  }
+  .prose p {
+    margin: 0 0 16px 0;
+    font-size:16px;
+    line-height:1.75;
+    color: #111827;
+    hyphens: auto;
+  }
+  .drop-cap::first-letter {
+    float: left;
+    font-size: 3.6em;
+    line-height: 0.8;
+    margin: 0.05em 0.12em 0 0;
+    font-weight: 700;
+    font-family: 'Noto Serif SC', serif;
+  }
+  .prose ol, .prose ul {
+    margin: 0 0 16px 1.2em;
+    padding: 0;
+    font-size:16px;
+    line-height:1.75;
+  }
+  figure {
+    margin: 18px 0;
+  }
+  figure img {
+    width: 100%;
+    height: auto;
+    max-height: 240px; /* 限制图片高度，确保空间预算 */
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(15,23,42,0.08);
+  }
+  figcaption {
+    margin-top:8px;
+    font-size:13px;
+    color:#6b7280;
+    font-style:italic;
+    text-align:center;
+  }
+  .footer {
+    margin-top: auto;
+    padding-top: 12px;
+    border-top: 1px solid #e6e6e6;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:12px;
+    color:#6b7280;
+  }
+  .meta-left { font-size:12px; color:#6b7280; }
+  .page-indicator { font-size:12px; color:#9ca3af; }
+
+  /* 深色模式支持 */
+  .dark body { background: #0b1220; }
+  .dark .magazine-page { background: #111827; }
+  .dark .title, .dark .lead, .dark .prose p { color: #e6edf3; }
+  .dark .chapter, .dark .meta-left, .dark .page-indicator { color: #94a3b8; }
+  .dark figcaption { color:#9ca3af; }
+</style>
+</head>
+<body class="magazine-shell">
+  <article class="magazine-page" role="article" aria-label="AI 浏览器战火重燃 - 第1页">
+    <!-- HEADER -->
+    <header class="header" role="banner">
+      <div class="chapter">专题 · 技术观察</div>
+      <h1 class="title">AI 浏览器战火重燃</h1>
+      <p class="lead">作者：甲木（Cover by 摸鱼小李） • 版本 0.2</p>
+    </header>
+
+    <!-- CONTENT -->
+    <section class="content" role="main" aria-labelledby="title">
+      <div class="prose">
+        <p class="drop-cap">最近，人工智能领域有一些进展。首先，浏览器大战又开始了。Perplexity 的 Comet 浏览器最近推广力度很大，字节跳动豆包海外版 Cici 的 Dola 浏览器——也就是豆包客户端的海外版——在国外多个市场登顶，OpenAI 也发布了他们的 Atlas。这几款产品明显是冲着 Google Chrome 去的；而 Chrome 也迫不及待地推出了 AI 助手功能。</p>
+
+        <p>当前这些 AI 浏览器的主要功能是理解网页内容。OpenAI 的 Atlas 还可以访问和理解浏览记录，以及操作浏览器。有人实测用它访问网页并进行一些交互，例如发帖、发评论等，但目前看起来还只是可用，但还谈不上好用。</p>
+
+        <p>目前这些 AI 浏览器的思路都很像，就是为浏览器增加语义理解功能，并让用户打开首页时直接进入自家产品。我认为这是第一阶段。</p>
+
+        <p>接下来的第二阶段，应该会融入更多 Agent 能力，让用户可以通过对话让浏览器完成更复杂的任务。例如我说“给某某某写封邮件，感谢他上个项目中提供的技术帮助”，那么浏览器可能就会做这些事情：</p>
+
+        <ol>
+          <li>打开邮箱；</li>
+          <li>自动输入用户名和密码；</li>
+          <li>找到特定联系人；</li>
+          <li>结合我和这位联系人过去的通信记录，撰写邮件；</li>
+          <li>给我发提醒，要我确认邮件内容；</li>
+          <li>确认后发送。</li>
+        </ol>
+
+        <p>其中关键的是这里：</p>
+
+        <figure>
+          <img src="https://1-1256632535.cos.ap-beijing.myqcloud.com/img/agent-browser.png" alt="agent-browser">
+          <figcaption>图：基于 Agent 的浏览器交互示意（来源：原文提供的图片链接）</figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" role="contentinfo">
+      <div class="meta-left">甲木 · Cover by 摸鱼小李 · v0.2</div>
+      <div class="page-indicator">第 1 页 / 共 2 页</div>
+    </footer>
+  </article>
+</body>
+</html>
