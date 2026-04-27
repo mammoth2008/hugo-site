@@ -1,0 +1,1 @@
+/Users/Freeman/Documents/products/wiki/.claude/references/skill-writing-guide.md
